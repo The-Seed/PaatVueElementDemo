@@ -1,0 +1,21 @@
+/* element ui buttons */
+.el-button--primary {@include elBtn($primary);}
+.el-button--warning {@include elBtn($warning);}
+.el-button+.el-button {margin-left: $space-s;}
+/* 普通功能按钮样式 */
+button.el-button {
+    padding: 9px 15px !important;
+    font-size: 12px;
+    &.is-disabled {
+        border-color: $border !important;
+        background-color: #eee !important;
+        color: #999 !important;
+    }
+}
+/* 内部功能按钮样式 */
+.el-table {
+    button.el-button {
+        float: left;
+        padding: 7px 15px !important;
+    }
+}

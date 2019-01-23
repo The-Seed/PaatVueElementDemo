@@ -1,0 +1,13 @@
+/* element ui input */
+.el-input {
+    font-size: 13px;
+    .el-input__inner {height: 32px;}
+    .el-input__icon {line-height: 32px;}
+}
+
+.el-table {
+    .el-input {
+        font-size: 12px;
+        .el-input__inner {height: 28px;}
+    }
+}

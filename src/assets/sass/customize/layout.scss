@@ -1,0 +1,17 @@
+*, *:before, *:after, {margin: 0; padding: 0; box-sizing: border-box;}
+html, body, #wrap, #container,#contents {height: 100%;}
+body {background-color: #f8f8f8;}
+
+#wrap {}
+
+#container {
+    position: relative;
+    padding: 60px $space;
+}
+
+#contents {
+    overflow-y: auto;
+    padding: $space;
+    border-radius: 4px;
+    background-color: #fff;
+}

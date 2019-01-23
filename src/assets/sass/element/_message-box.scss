@@ -1,0 +1,42 @@
+/* element ui confirm */
+.el-message-box {
+    padding-bottom: 0;
+    border-radius: 6px;
+    border: none;
+    .el-message-box__header {
+        position: relative;
+        padding: $space;
+        background-color: $primary;
+        color: #fff;
+        .el-message-box__title {color: #fff; font-weight: normal; font-size: 14px; line-height: 21px;}
+        .el-message-box__headerbtn {
+            float: none;
+            position: absolute; top: 50%; right: $space;
+            width: 16px; height: 16px;
+            margin-top: -8px;
+            line-height: 16px;
+            .el-icon-close:before {
+                content: '\E62C';
+                color: #fff;
+                font-size: 16px;
+            }
+        }
+    }
+    .el-message-box__content {
+        padding: $space;
+    }
+    .el-message-box__btns {
+        padding: $space-s;
+        border-top: 1px solid $border;
+        background: #fafbfd;
+        &:after {
+            content: '';
+            display: block;
+            clear: both;
+            overflow: hidden;
+            visibility: hidden;
+            height: 0;
+        }
+        button {float: right; margin-left: $space-s;}
+    }
+}

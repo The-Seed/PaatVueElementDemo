@@ -1,0 +1,14 @@
+@import './paatSearchForm.scss';
+@import './paatSearchTable.scss';
+
+.paatSearchPage {
+    .el-pagination {
+        margin-top: $space;
+        text-align: right;
+    }
+}
+.paatSearchPage__menu {margin-top: $space; zoom: 1;}
+.paatSearchPage__menu:after {content: ''; display: block; clear: both; overflow: hidden; visibility: hidden; height: 0;}
+.paatSearchPage__menu--left {float: left;}
+.paatSearchPage__menu--right {float: right;}
+.paatSearchPage__alert {margin-top: $space;}

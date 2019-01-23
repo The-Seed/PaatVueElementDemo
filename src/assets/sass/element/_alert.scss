@@ -1,0 +1,13 @@
+.el-alert {
+    padding: 5px;
+    .el-alert__icon {
+        width: 14px;
+        font-size: 14px;
+    }
+    .el-alert__content {
+        padding: 0 5px;
+    }
+    .el-alert__title {
+        line-height: 22px;
+    }
+}

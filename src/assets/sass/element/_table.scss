@@ -1,0 +1,17 @@
+/* element ui table */
+div.el-table {
+    &.el-table--border, &.el-table--group {border-color: $border; /* $border !important; */}
+    &:before, &:after {background-color: $border !important;}
+    th, td {
+        padding: $space-s;
+        border-color: $border !important;
+        // text-align: center;
+        .cell {
+            padding: 0 $space-s;
+            line-height: 28px;
+            white-space: nowrap;
+        }
+    }
+    .el-table__header th {color: #1b2034;; } //
+    // td.left {text-align: left;}
+}

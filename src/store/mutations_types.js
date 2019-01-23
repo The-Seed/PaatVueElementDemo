@@ -1,0 +1,2 @@
+export const SET_CODE_TABLE = 'SET_CODE_TABLE';
+export const GET_CODE_TABLE = 'GET_CODE_TABLE';

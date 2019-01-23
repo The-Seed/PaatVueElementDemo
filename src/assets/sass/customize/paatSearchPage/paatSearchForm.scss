@@ -1,0 +1,15 @@
+.paatSearchForm {
+    .el-select {width: 100%;}
+}
+
+.paatSearchForm__item {position: relative; height: 32px;}
+.paatSearchForm__item:nth-child(1n+4) {margin-top: $space;}
+.paatSearchForm__label {position: absolute; top: 0; left: 0; width: 100px; height: 32px; line-height: 32px; text-align: right;}
+.paatSearchForm__label:after {content: '：';}
+.paatSearchForm__content {position: relative; padding-left: 100px;}
+.paatSearchForm__content--right {text-align: right; zoom: 1;}
+.paatSearchForm__content--right:after {content: ''; display: block; clear: both; overflow: hidden; visibility: hidden; height: 0;}
+// .paatSearchForm__content--right > * {float: right;}
+.paatSearchForm__separator {display: table; width: 100%;}
+.paatSearchForm__separator > * {display: table-cell; width: auto;}
+.paatSearchForm__separator > span {width: 28px; line-height: 32px; text-align: center;}

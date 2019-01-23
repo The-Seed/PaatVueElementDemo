@@ -1,0 +1,43 @@
+// author => kmkim , tel => 18502105562;
+// 写这段代码的时候，只有上帝和我知道它是干嘛的 => 现在，只有上帝知道;
+//      ┌─┐       ┌─┐ 
+//   ┌──┘ ┴───────┘ ┴──┐
+//   │                 │
+//   │       ───       │
+//   ███████───███████ │
+//   │                 │
+//   │       ─┴─       │
+//   └───┐         ┌───┘
+//       │         │ 神兽保佑,代码无BUG;
+//       │         └──────────────┐
+//       │                        ├─┐ Here be dragons;
+//       │                        ┌─┘ 前方高能;
+//       └─┐  ┐  ┌───────┬──┐  ┌──┘  
+//         │ ─┤ ─┤       │ ─┤ ─┤
+//         └──┴──┘       └──┴──┘  
+
+// common
+@import './_config.scss';
+@import './_tools.scss';
+// customize
+@import './customize/layout.scss';
+@import './customize/header.scss';
+@import './customize/footer.scss';
+// @import './customize/nav.scss';
+@import './customize/paatSearchPage/paatSearchPage.scss';
+// element ui
+@import './element/_buttons.scss';
+@import './element/_input.scss';
+@import './element/_select.scss';
+@import './element/_table.scss';
+@import './element/_form.scss';
+@import './element/_alert.scss';
+// @import './element/_tabs.scss';
+// @import './element/_dialog.scss';
+// @import './element/_message-box.scss';
+// @import './element/_notification.scss';
+
+
+// 以下代码是演示需要的代码, 实战时可以删除
+
+.tem-h2 {margin: $space 0; padding: $space 0; border-bottom: 1px solid #ddd;}

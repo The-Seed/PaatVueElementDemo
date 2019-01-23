@@ -1,0 +1,11 @@
+/* element ui select */
+.el-select {
+    .el-input {font-size: 13px;}
+    .el-input__inner {height: 32px;}
+}
+// select 下拉框
+.el-select-dropdown.el-popper[x-placement^=top] {margin-bottom: $space;}
+.el-select-dropdown.el-popper[x-placement^=bottom] {margin-top: $space;} 
+.el-dialog {
+    .el-select {width: 100%;}
+}
